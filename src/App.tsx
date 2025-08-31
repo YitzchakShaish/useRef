@@ -1,5 +1,6 @@
 
 import './App.css'
+import Clicks from './components/Clicks'
 import ShowValue from './components/ShowValue'
 // import InputBox from './components/InputBox'
 
@@ -15,7 +16,8 @@ function App() {
     <>
  
   {/* <ShowValue></ShowValue> */}
-    <Timer></Timer>
+    {/* <Timer></Timer> */}
+    <Clicks></Clicks>
     </>
    )
 }
